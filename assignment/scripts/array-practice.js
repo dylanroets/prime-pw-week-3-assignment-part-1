@@ -28,7 +28,7 @@ console.log('Number of my favorite foods:', foodArray.length);
 console.log('--- 3. Accessing items in an array ---');
 
 // Example: Log the first animal from the array using it's array index
-console.log('First animal is', animalArray[0])
+console.log('First animal is', animalArray[0]);
 
 // 3.a. TODO: Log the second animal in the array 
 console.log('Second animal is', animalArray[1]);
@@ -80,6 +80,7 @@ console.log('The animals are now', animalArray);
 removedFood = foodArray.shift();
 console.log('Removed the first food', removedFood);
 console.log('The favorite foods are now', foodArray);
+
 // 4.e (STRETCH) TODO: Replace the second food in your array
 //      with another one of your favorite foods.
 //      Then log the updated array.
